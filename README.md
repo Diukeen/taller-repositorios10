@@ -1,18 +1,16 @@
-# Práctica de Git y GitHub
+# Práctica de Git y GitHub – Ariadna Krsteff
 
 1\. Iniciar sesión en GitHub
 
 - Entrar a [https://github.com](https://github.com?utm_source=chatgpt.com).
 - Seleccionar Sign in.
-- Ingresar correo o nombre de usuario y contraseña.
+- Ingresar el correo o nombre de usuario y contraseña.
 
 2\. Configurar Git
 
-Abrir Git Bash y ejecutar:
-
 ```
-git config --global user.name "Tu Nombre"
-git config --global user.email "tu-correo@gmail.com"
+git config --global user.name "Ariadna Krsteff"
+git config --global user.email "CORREO_DE_ARIADNA"
 ```
 
 3\. Clonar el repositorio
@@ -27,7 +25,7 @@ cd NOMBRE_DEL_REPOSITORIO
 ```
 git checkout main
 git pull origin main
-git checkout -b nombre-apellido
+git checkout -b ariadna-krsteff
 ```
 
 5\. Modificar un archivo
@@ -39,22 +37,22 @@ Abrir `index.html`, realizar un pequeño cambio y guardar.
 ```
 git status
 git add index.html
-git commit -m "Actualizar titulo"
-git push -u origin nombre-apellido
+git commit -m "Ariadna Krsteff actualiza el titulo"
+git push -u origin ariadna-krsteff
 ```
 
 7\. Crear un Pull Request
 
 - Entrar al repositorio en GitHub.
 - Seleccionar Pull requests → New pull request.
-- Elegir `main` como base y tu rama como compare.
+- Elegir `main` como base y `ariadna-krsteff` como compare.
 - Escribir un título y crear el Pull Request.
 
 8\. Revisar y combinar
 
 - Un compañero revisa los cambios en Files changed.
 - Si está todo bien, aprueba el Pull Request.
-- El autor selecciona Merge pull request y confirma.
+- Ariadna selecciona Merge pull request y confirma.
 
 9\. Actualizar el repositorio local
 
@@ -74,4 +72,4 @@ Para recordar en el parcial:
 - `Pull Request`: solicitar que tus cambios se incorporen a `main`.
 - `merge`: combinar los cambios.
 
-Importante: iniciar sesión en GitHub permite acceder a la cuenta. `git config` configura el nombre y correo que aparecen como autor de los commits; no inicia sesión.
+Reemplazar CORREO_DE_ARIADNA por el correo que Ariadna tiene registrado en GitHub.
