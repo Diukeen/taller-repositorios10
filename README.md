@@ -44,9 +44,9 @@ git push -u origin ariadna-krsteff
 7\. Crear un Pull Request
 
 - Entrar al repositorio en GitHub.
-- Seleccionar Pull requests → New pull request.
-- Elegir `main` como base y `ariadna-krsteff` como compare.
-- Escribir un título y crear el Pull Request.
+- Deberia aparecer un nuevo pull request.
+- Entra al mismo y describe el cambio que realiazaste y quien es el asignado a revisarlo.
+- Por ultimo enviarlo.
 
 8\. Revisar y combinar
 
