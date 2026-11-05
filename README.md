@@ -57,8 +57,8 @@ git push -u origin ariadna-krsteff
 9\. Actualizar el repositorio local
 
 ```
-git checkout 
-git pull origin 
+git checkout main
+git pull origin main
 ```
 
 Para recordar en el parcial:
