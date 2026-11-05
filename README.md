@@ -23,8 +23,8 @@ cd NOMBRE_DEL_REPOSITORIO
 4\. Crear una rama
 
 ```
-git checkout main
-git pull origin main
+git checkout 
+git pull origin 
 git checkout -b ariadna-krsteff
 ```
 
